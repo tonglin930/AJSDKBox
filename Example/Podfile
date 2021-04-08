@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AJSDKBox_Example' do
+  pod 'AJSDKBox', :path => '../'
+
+  target 'AJSDKBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
