@@ -1,0 +1,6 @@
+module AJSDKBox {
+  umbrella header "AJSDKBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

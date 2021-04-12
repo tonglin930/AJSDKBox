@@ -1,0 +1,6 @@
+framework module AJTuya {
+  umbrella header "AJTuya-umbrella.h"
+
+  export *
+  module * { export * }
+}

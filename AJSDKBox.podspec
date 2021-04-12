@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'AJSDKBox/Classes/**/*'
+  s.dependency  'AJSDKInterface'
   
   # s.resource_bundles = {
   #   'AJSDKBox' => ['AJSDKBox/Assets/*.png']

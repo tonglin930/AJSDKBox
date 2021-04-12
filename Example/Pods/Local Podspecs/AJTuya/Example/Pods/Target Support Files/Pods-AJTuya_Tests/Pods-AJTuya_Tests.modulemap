@@ -1,0 +1,6 @@
+framework module Pods_AJTuya_Tests {
+  umbrella header "Pods-AJTuya_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

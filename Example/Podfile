@@ -1,10 +1,14 @@
-use_frameworks!
+source 'ssh://git@gitlab.263nt.com:2200/italkbbspecs/italkbbspecs.git' # new gitlab
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
 
 platform :ios, '9.0'
 
 target 'AJSDKBox_Example' do
   pod 'AJSDKBox', :path => '../'
 
+  pod 'AJEZVIZ',:path => './Pods/Local Podspecs/AJEZVIZ'
+  pod 'AJTuya', :path => './Pods/Local Podspecs/AJTuya'
+  
   target 'AJSDKBox_Tests' do
     inherit! :search_paths
 

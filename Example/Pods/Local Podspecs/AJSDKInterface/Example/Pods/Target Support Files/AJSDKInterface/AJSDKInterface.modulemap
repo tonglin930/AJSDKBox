@@ -1,0 +1,6 @@
+framework module AJSDKInterface {
+  umbrella header "AJSDKInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

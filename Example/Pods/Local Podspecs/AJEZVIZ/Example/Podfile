@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AJEZVIZ_Tests' do
+  pod 'AJEZVIZ', :path => '../'
+  
+  
+end

@@ -1,0 +1,22 @@
+{
+  "name": "AJSDKInterface",
+  "version": "0.1.0",
+  "summary": "A short description of AJSDKInterface.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/keithmorning/AJSDKInterface",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keithmorning": "xiaofeng.xi@net263.com"
+  },
+  "source": {
+    "git": "https://github.com/keithmorning/AJSDKInterface.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AJSDKInterface/Classes/**/*"
+}

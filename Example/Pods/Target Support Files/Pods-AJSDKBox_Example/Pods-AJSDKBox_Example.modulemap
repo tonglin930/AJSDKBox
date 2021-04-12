@@ -1,0 +1,6 @@
+module Pods_AJSDKBox_Example {
+  umbrella header "Pods-AJSDKBox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
