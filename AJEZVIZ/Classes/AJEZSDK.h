@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-@protocol AJSDKMeathodCallbck;
 @protocol AAJSDKMeathod;
+@protocol AJSDKMeathodCallbck;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AJEZSDK : NSObject<AAJSDKMeathod>
