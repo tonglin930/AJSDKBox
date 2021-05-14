@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AJSDKBox'
+  s.name             = 'AJBox'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AJSDKBox.'
+  s.summary          = 'A short description of AJBox.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'ssh://git@gitlab.263nt.com:2200/italkbbspecs/ajsdkbox.git'
+  s.homepage         = 'https://github.com/keithmorning/AJBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'keithmorning' => 'xiaofeng.xi@net263.com' }
@@ -29,28 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  s.default_subspec = 'AJBox'
-  
-  s.subspec 'AJSDKInterface' do |ss|
-    ss.source_files = 'AJSDKInterface/Classes/**/*'
-  end
 
-  s.subspec 'AJBox' do |ss|
-    ss.source_files = 'AJBox/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJSDKInterface'
-  end
-  
-  s.subspec 'AJEZVIZ' do |ss|
-    ss.source_files = 'AJEZVIZ/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJBox'
-  end
-  
-  s.subspec 'AJTuya' do |ss|
-    ss.source_files = 'AJTuya/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJBox'
-  end
-  
+  s.source_files = 'AJBox/Classes/**/*'
+
   
   
   # s.resource_bundles = {

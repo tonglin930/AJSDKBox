@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AJSDKBox.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/keithmorning/AJSDKBox",
+  "homepage": "ssh://git@gitlab.263nt.com:2200/italkbbspecs/ajsdkbox.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,44 @@
     "keithmorning": "xiaofeng.xi@net263.com"
   },
   "source": {
-    "git": "https://github.com/keithmorning/AJSDKBox.git",
+    "git": "ssh://git@gitlab.263nt.com:2200/italkbbspecs/ajsdkbox.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AJSDKBox/Classes/**/*",
-  "dependencies": {
-    "AJSDKInterface": [
+  "default_subspecs": "AJBox",
+  "subspecs": [
+    {
+      "name": "AJSDKInterface",
+      "source_files": "AJSDKInterface/Classes/**/*"
+    },
+    {
+      "name": "AJBox",
+      "source_files": "AJBox/Classes/**/*",
+      "dependencies": {
+        "AJSDKBox/AJSDKInterface": [
 
-    ]
-  }
+        ]
+      }
+    },
+    {
+      "name": "AJEZVIZ",
+      "source_files": "AJEZVIZ/Classes/**/*",
+      "dependencies": {
+        "AJSDKBox/AJBox": [
+
+        ]
+      }
+    },
+    {
+      "name": "AJTuya",
+      "source_files": "AJTuya/Classes/**/*",
+      "dependencies": {
+        "AJSDKBox/AJBox": [
+
+        ]
+      }
+    }
+  ]
 }

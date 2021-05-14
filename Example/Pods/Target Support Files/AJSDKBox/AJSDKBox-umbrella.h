@@ -12,6 +12,9 @@
 
 #import "AJSDKRuntime.h"
 #import "CTMediator.h"
+#import "AJEZSDK.h"
+#import "EZObj.h"
+#import "EZVIZSDK.h"
 
 FOUNDATION_EXPORT double AJSDKBoxVersionNumber;
 FOUNDATION_EXPORT const unsigned char AJSDKBoxVersionString[];

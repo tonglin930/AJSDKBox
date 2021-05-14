@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58054ED2364D81E170CCF59A /* libPods-AJSDKBox_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F504F06A5A9CE5C2A75AC016 /* libPods-AJSDKBox_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B3ED7EB871E892667B293A92 /* libPods-AJSDKBox_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D524D2E0DBDBF2CEB25A67 /* libPods-AJSDKBox_Example.a */; };
+		A10D776C2DC0350DE14DB646 /* Pods_AJSDKBox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD46E21D75697453E3344210 /* Pods_AJSDKBox_Tests.framework */; };
+		A7E210BE15C1E0893333B208 /* Pods_AJSDKBox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6E4AF2ED0EF75083F363D0 /* Pods_AJSDKBox_Example.framework */; };
+		CE1FE180262532CA00A50818 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE1FE17B262532CA00A50818 /* LICENSE */; };
+		CE1FE181262532CA00A50818 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE17E262532CA00A50818 /* MGJRouter.m */; };
+		CE1FE182262532CA00A50818 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE1FE17F262532CA00A50818 /* README.md */; };
+		CE1FE187262532EF00A50818 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE186262532EF00A50818 /* DemoListViewController.m */; };
+		CE1FE195262534F100A50818 /* RouterRegisterCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE194262534F100A50818 /* RouterRegisterCenter.m */; };
+		CE1FE1A12626C42200A50818 /* LocationParamaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE1A02626C42200A50818 /* LocationParamaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +49,21 @@
 		6EBAC35CBCBF2EC914606BE7 /* Pods-AJSDKBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJSDKBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-AJSDKBox_Example/Pods-AJSDKBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		791B4C7AFA06D97D2CB8B4C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		849350DA1EA091EBBF772FBF /* Pods-AJSDKBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJSDKBox_Example.release.xcconfig"; path = "Target Support Files/Pods-AJSDKBox_Example/Pods-AJSDKBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C1D8065FD2F737329C611049 /* AJSDKBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJSDKBox.podspec; path = ../AJSDKBox.podspec; sourceTree = "<group>"; };
+		BF6E4AF2ED0EF75083F363D0 /* Pods_AJSDKBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJSDKBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D8065FD2F737329C611049 /* AJSDKBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJSDKBox.podspec; path = ../AJSDKBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C26A8186473217AE40F15106 /* Pods-AJSDKBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJSDKBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AJSDKBox_Tests/Pods-AJSDKBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6D524D2E0DBDBF2CEB25A67 /* libPods-AJSDKBox_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AJSDKBox_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F504F06A5A9CE5C2A75AC016 /* libPods-AJSDKBox_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AJSDKBox_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1FE17B262532CA00A50818 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CE1FE17D262532CA00A50818 /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		CE1FE17E262532CA00A50818 /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		CE1FE17F262532CA00A50818 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE1FE185262532EF00A50818 /* DemoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
+		CE1FE186262532EF00A50818 /* DemoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
+		CE1FE18A2625334D00A50818 /* AJSDBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJSDBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE1FE193262534F100A50818 /* RouterRegisterCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterRegisterCenter.h; sourceTree = "<group>"; };
+		CE1FE194262534F100A50818 /* RouterRegisterCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterRegisterCenter.m; sourceTree = "<group>"; };
+		CE1FE1982625372400A50818 /* RouterPathUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterPathUrl.h; sourceTree = "<group>"; };
+		CE1FE1A02626C42200A50818 /* LocationParamaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParamaterViewController.swift; sourceTree = "<group>"; };
+		FD46E21D75697453E3344210 /* Pods_AJSDKBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJSDKBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3ED7EB871E892667B293A92 /* libPods-AJSDKBox_Example.a in Frameworks */,
+				A7E210BE15C1E0893333B208 /* Pods_AJSDKBox_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58054ED2364D81E170CCF59A /* libPods-AJSDKBox_Tests.a in Frameworks */,
+				A10D776C2DC0350DE14DB646 /* Pods_AJSDKBox_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,11 +121,19 @@
 		607FACD21AFB9204008FA782 /* Example for AJSDKBox */ = {
 			isa = PBXGroup;
 			children = (
+				CE1FE17A262532CA00A50818 /* MGJRouter */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				CE1FE185262532EF00A50818 /* DemoListViewController.h */,
+				CE1FE186262532EF00A50818 /* DemoListViewController.m */,
+				CE1FE1A02626C42200A50818 /* LocationParamaterViewController.swift */,
+				CE1FE193262534F100A50818 /* RouterRegisterCenter.h */,
+				CE1FE194262534F100A50818 /* RouterRegisterCenter.m */,
+				CE1FE1982625372400A50818 /* RouterPathUrl.h */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				CE1FE18A2625334D00A50818 /* AJSDBox-Bridging-Header.h */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for AJSDKBox";
@@ -153,10 +178,29 @@
 		AE3A1F6B19867E4A8AF7EF25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6D524D2E0DBDBF2CEB25A67 /* libPods-AJSDKBox_Example.a */,
-				F504F06A5A9CE5C2A75AC016 /* libPods-AJSDKBox_Tests.a */,
+				BF6E4AF2ED0EF75083F363D0 /* Pods_AJSDKBox_Example.framework */,
+				FD46E21D75697453E3344210 /* Pods_AJSDKBox_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1FE17A262532CA00A50818 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FE17B262532CA00A50818 /* LICENSE */,
+				CE1FE17C262532CA00A50818 /* MGJRouter */,
+				CE1FE17F262532CA00A50818 /* README.md */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		CE1FE17C262532CA00A50818 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FE17D262532CA00A50818 /* MGJRouter.h */,
+				CE1FE17E262532CA00A50818 /* MGJRouter.m */,
+			);
+			path = MGJRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +214,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				EADFC9F1A537F7F7A256D35E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,7 +251,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -249,6 +294,8 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CE1FE182262532CA00A50818 /* README.md in Resources */,
+				CE1FE180262532CA00A50818 /* LICENSE in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +354,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EADFC9F1A537F7F7A256D35E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AJSDKBox_Example/Pods-AJSDKBox_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AJSDKBox/AJSDKBox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJSDKBox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AJSDKBox_Example/Pods-AJSDKBox_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -314,8 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1FE181262532CA00A50818 /* MGJRouter.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CE1FE1A12626C42200A50818 /* LocationParamaterViewController.swift in Sources */,
+				CE1FE195262534F100A50818 /* RouterRegisterCenter.m in Sources */,
+				CE1FE187262532EF00A50818 /* DemoListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -369,14 +439,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -422,14 +496,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -448,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -461,12 +538,14 @@
 			baseConfigurationReference = 6EBAC35CBCBF2EC914606BE7 /* Pods-AJSDKBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = AJSDKBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/user/Desktop/AJSDKBox/Example/AJSDKBox/AJSDBox-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -477,12 +556,14 @@
 			baseConfigurationReference = 849350DA1EA091EBBF772FBF /* Pods-AJSDKBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = AJSDKBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/user/Desktop/AJSDKBox/Example/AJSDKBox/AJSDBox-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

@@ -1,6 +1,0 @@
-use_frameworks!
-target 'AJSDKInterface_Tests' do
-  pod 'AJSDKInterface', :path => '../'
-  
-  
-end

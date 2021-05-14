@@ -1,35 +1,26 @@
 PODS:
-  - AJEZVIZ (0.1.0):
-    - AJSDKInterface
   - AJSDKBox (0.1.0):
-    - AJSDKInterface
-  - AJSDKInterface (0.1.0)
-  - AJTuya (0.1.0):
-    - AJSDKInterface
+    - AJSDKBox/AJBox (= 0.1.0)
+  - AJSDKBox/AJBox (0.1.0):
+    - AJSDKBox/AJSDKInterface
+  - AJSDKBox/AJEZVIZ (0.1.0):
+    - AJSDKBox/AJBox
+  - AJSDKBox/AJSDKInterface (0.1.0)
+  - AJSDKBox/AJTuya (0.1.0):
+    - AJSDKBox/AJBox
 
 DEPENDENCIES:
-  - AJEZVIZ (from `./Pods/Local Podspecs/AJEZVIZ`)
   - AJSDKBox (from `../`)
-  - AJTuya (from `./Pods/Local Podspecs/AJTuya`)
-
-SPEC REPOS:
-  "ssh://git@gitlab.263nt.com:2200/italkbbspecs/italkbbspecs.git":
-    - AJSDKInterface
+  - AJSDKBox/AJEZVIZ (from `../`)
+  - AJSDKBox/AJTuya (from `../`)
 
 EXTERNAL SOURCES:
-  AJEZVIZ:
-    :path: "./Pods/Local Podspecs/AJEZVIZ"
   AJSDKBox:
     :path: "../"
-  AJTuya:
-    :path: "./Pods/Local Podspecs/AJTuya"
 
 SPEC CHECKSUMS:
-  AJEZVIZ: 8812bccc0f8f115443f03658310e00b5cdb45828
-  AJSDKBox: 2d2c14d3b45d3a2425f93498aa5eab85b09732b8
-  AJSDKInterface: 2242160bf26d56ecb78a66afbc14534f17b8e38c
-  AJTuya: 0605e211e906718e1a2f1e1f172d607420a924a1
+  AJSDKBox: 5fa0664f0b004860419ada40cc69abc88cdc7478
 
-PODFILE CHECKSUM: c3ce84ea603d8489b98dfbdab5d0b412f8fd23ee
+PODFILE CHECKSUM: 6420d94350f41d0bd2ca51014576c5756fec04cc
 
 COCOAPODS: 1.10.1

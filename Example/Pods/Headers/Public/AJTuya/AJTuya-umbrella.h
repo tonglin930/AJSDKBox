@@ -1,1 +1,0 @@
-../../../Target Support Files/AJTuya/AJTuya-umbrella.h

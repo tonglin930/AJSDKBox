@@ -1,4 +1,4 @@
-module AJSDKBox {
+framework module AJSDKBox {
   umbrella header "AJSDKBox-umbrella.h"
 
   export *

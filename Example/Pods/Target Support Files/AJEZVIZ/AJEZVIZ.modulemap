@@ -1,6 +1,0 @@
-framework module AJEZVIZ {
-  umbrella header "AJEZVIZ-umbrella.h"
-
-  export *
-  module * { export * }
-}
