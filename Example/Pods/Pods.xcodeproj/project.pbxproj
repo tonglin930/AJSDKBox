@@ -7,80 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09991C27214A62F899066664C6A8408A /* AJSDKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF5BE7A3CFC742416B6D6A81B88E0A /* AJSDKRuntime.m */; };
-		27CE64F15418CDF5E4714CB43694D828 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8E406FA40BFF32059E82157A85B2DD /* CTMediator.m */; };
+		177E2B7FF0AD1CBA0211471B6A9961AD /* AJSDKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E987D5F43C4D6339F5FD077E016E26 /* AJSDKRuntime.m */; };
+		262816753DCDCC090535AB669571515F /* TuyaSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B11A8071C6A0CCF8826CEF8EDF7A5 /* TuyaSDK.swift */; };
 		2A4269BF96793E95012D886218BC6A75 /* Pods-AJSDKBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E87D385397078F592A2019E452F263 /* Pods-AJSDKBox_Example-dummy.m */; };
-		36A023E6B23A8E3CFD6E68FAB297E27C /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 309CA9E0083AE40C7BFFD11D3B926F20 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECD2F83987E360B7AAF6072F2E9A08D /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3D3472D4F0AC7D42A829419DFF540 /* CTMediator.m */; };
+		344FB3A308792F730E5AF3D1E5EA27DA /* AJSDKInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6E8302C3F0611AC4DBEBAB7BEDC25 /* AJSDKInterface.swift */; };
+		35F046A2F65C70F58495E2B2D0E00D45 /* TuyaObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26E068B1CCB2A1EADFE3D8F5CFBA02 /* TuyaObj.swift */; };
+		3796C4B1D135E31767B8F495C863AA99 /* AJSDKBoxRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC29D5708791CEBD88FE4F7930F5F04 /* AJSDKBoxRouter.swift */; };
 		3E849719702FAAFFA930BBCF50BAA334 /* Pods-AJSDKBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75A155314537E97E91F5EAA56BF01C /* Pods-AJSDKBox_Tests-dummy.m */; };
-		400909ED7EEE098C55ED627280AC2EBA /* AJSDKBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60BFB56CBF4DE1F8498C2678174AAA /* AJSDKBox.swift */; };
+		5537E777537FB6D4F0641217D9AFF3EF /* AJTuyaSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C23398617B0C7903CC8F9FED82D4A /* AJTuyaSDK.swift */; };
 		63BABB3EFDC6A532A3C0109225D0180B /* Pods-AJSDKBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30719367B45568C67F181DC7A09F7C0E /* Pods-AJSDKBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AE3D28A62A1631B6B25D6C276043F70 /* AJSDKBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69DA8D98A949E4FB5E01EF9D475B0D /* AJSDKBox-dummy.m */; };
-		9ACCB6F090816A39F7B5B9E4ACCDFF77 /* AJSDKBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0DDDBE3F1AEAA103966D77A625A8AA /* AJSDKBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818A1E738FE91367CB19B1CA4E559EAB /* AJSDKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E042E05628AE9E5C145F2CE606EFFD /* AJSDKRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842ACB0EF1285739579EB6FE9E9856E3 /* AJSDKBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE922A9FF9C0CDA094194B20F201E76 /* AJSDKBox-dummy.m */; };
+		A04962106CB6439F61D7E08EBEEFB49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0648AEBABA4E795AE3DF1053CC9CBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C772CEDCF9D1567FEC68FF54831C6337 /* AJSDKInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9BD8BB05EB0766267EBD7A7AB27F /* AJSDKInterface.swift */; };
+		A41D0707A4B01258BE1D2F91A6F424D1 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2062854C364E26299903D110151E9135 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A587FD2ABB28473AEFF1D8F4783501FD /* AJEZSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B386C240C02E40E172EDA3E4C7C5FA8 /* AJEZSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD15EA59D6F34ADC6AF6A65D1A689381 /* AJSDKBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC48DE9E603B292AA910CF2299DE9B /* AJSDKBox.swift */; };
+		BB6C34231C39B91861789DF9C7C39C07 /* EZObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A52763424456C3520471A9B6A263E3C /* EZObj.m */; };
+		C13951834208885DB5DF1FD7308DB257 /* AJSDKBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33141EC1BCC491B68376B461EC5597B1 /* AJSDKBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA593DC3A6A4D4650806571F629B20CD /* EZObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E400160900E1D0DF1F70E4530713E3 /* EZObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD07CB190D3B8A67AB0493433993BDD3 /* Pods-AJSDKBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBFB665428887AAE1B1DC6FD01FB682 /* Pods-AJSDKBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E503605C710F8424CD37E3E6C25C42B9 /* AJSDKBoxRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A0176E4AB17C87327F254E9A5A23E /* AJSDKBoxRouter.swift */; };
+		D68116BEA0A9923CD4D5C9F93E2BED62 /* EZVIZSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EF90999426800B1F96389F4CD616CE6A /* EZVIZSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE912AEFD94EF579947F3567F9CBE0AE /* AJEZSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB218EBB52592A93680C007E3FC9DBD /* AJEZSDK.m */; };
 		E638BEAE253D5AC0CBD30E32DFBC1C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E705A42F9BAA0E281CE7C5DDBD434B93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F3D32BFD0F755E220DD6C50E2D2D6A0C /* AJSDKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 059A4D919D5C89F1CF439F1F32674D44 /* AJSDKRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF4F594A85025BA1157767BB53C1810D /* EZVIZSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A0CC4426A172DB5945728202FD08A7 /* EZVIZSDK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B11DBBBC61B531AAA402CBE6046F017 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1F932AC8D3BDC9C86890606BDDEB81A;
-			remoteInfo = "Pods-AJSDKBox_Example";
-		};
-		A3CD2909AD0EC21B839671936E5C3585 /* PBXContainerItemProxy */ = {
+		29B7E61DE7786F180B021BC676C3B3DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3AB7CA357E4FA8D8F3C563E4878D866D;
 			remoteInfo = AJSDKBox;
 		};
+		A76350D636A45B4994A30B7E48C9EBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F932AC8D3BDC9C86890606BDDEB81A;
+			remoteInfo = "Pods-AJSDKBox_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059A4D919D5C89F1CF439F1F32674D44 /* AJSDKRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AJSDKRuntime.h; path = AJSDKBox/Classes/AJSDKRuntime.h; sourceTree = "<group>"; };
+		04E400160900E1D0DF1F70E4530713E3 /* EZObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZObj.h; path = AJEZVIZ/Classes/EZObj.h; sourceTree = "<group>"; };
+		05E987D5F43C4D6339F5FD077E016E26 /* AJSDKRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AJSDKRuntime.m; path = AJSDKBox/Classes/AJSDKRuntime.m; sourceTree = "<group>"; };
 		075560B80DBDCE32F9102EF5504651B1 /* Pods-AJSDKBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJSDKBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08C07C8DA6AE3A51972DA493447567E3 /* Pods-AJSDKBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJSDKBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0983A67C3F22AC5AD04C3F285992F239 /* Pods_AJSDKBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJSDKBox_Tests.framework; path = "Pods-AJSDKBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147DF538B14FC4805E665FE2ACB11589 /* AJSDKBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJSDKBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2062854C364E26299903D110151E9135 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = AJSDKBox/Classes/CTMediator.h; sourceTree = "<group>"; };
+		22A0CC4426A172DB5945728202FD08A7 /* EZVIZSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZVIZSDK.m; path = AJEZVIZ/Classes/EZVIZSDK.m; sourceTree = "<group>"; };
 		2377A9809AE12AA7FBDA6D3C563F30D0 /* Pods-AJSDKBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJSDKBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AB3D3472D4F0AC7D42A829419DFF540 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = AJSDKBox/Classes/CTMediator.m; sourceTree = "<group>"; };
 		30719367B45568C67F181DC7A09F7C0E /* Pods-AJSDKBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJSDKBox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		309CA9E0083AE40C7BFFD11D3B926F20 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = AJSDKBox/Classes/CTMediator.h; sourceTree = "<group>"; };
-		330B6212E6C89DA8544426186EFF83B7 /* AJSDKBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJSDKBox.debug.xcconfig; sourceTree = "<group>"; };
+		33141EC1BCC491B68376B461EC5597B1 /* AJSDKBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJSDKBox-umbrella.h"; sourceTree = "<group>"; };
 		34B6C59CECEC6F3C4BB0CEB73F604E0D /* Pods-AJSDKBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJSDKBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E8B8F8922B0622AF2021B077BC8FBBA /* AJSDKBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJSDKBox-prefix.pch"; sourceTree = "<group>"; };
-		46480CF49249A6D44EBA40E473C09E67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		51126BC9A559605146FCD1D2604F8732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3E2C0074981EF9B87AF5E040E9441016 /* AJSDKBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJSDKBox.modulemap; sourceTree = "<group>"; };
+		43A6E8302C3F0611AC4DBEBAB7BEDC25 /* AJSDKInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKInterface.swift; path = AJSDKBox/Classes/AJSDKInterface.swift; sourceTree = "<group>"; };
+		48E042E05628AE9E5C145F2CE606EFFD /* AJSDKRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AJSDKRuntime.h; path = AJSDKBox/Classes/AJSDKRuntime.h; sourceTree = "<group>"; };
+		4D560D4B5A1BDD96E6558A724DF9978E /* AJSDKBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJSDKBox-prefix.pch"; sourceTree = "<group>"; };
+		4DE922A9FF9C0CDA094194B20F201E76 /* AJSDKBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJSDKBox-dummy.m"; sourceTree = "<group>"; };
+		4F26E068B1CCB2A1EADFE3D8F5CFBA02 /* TuyaObj.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TuyaObj.swift; path = AJTuya/Classes/TuyaObj.swift; sourceTree = "<group>"; };
+		5A52763424456C3520471A9B6A263E3C /* EZObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZObj.m; path = AJEZVIZ/Classes/EZObj.m; sourceTree = "<group>"; };
 		5F9440205FBD6CC1988DACC1FFC643BE /* AJSDKBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJSDKBox.framework; path = AJSDKBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		612F9BD8BB05EB0766267EBD7A7AB27F /* AJSDKInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKInterface.swift; path = AJSDKBox/Classes/AJSDKInterface.swift; sourceTree = "<group>"; };
-		625E3CEED6171A962C323168099BAE41 /* AJSDKBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJSDKBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		633E0D3578BA11C565E8ACE139357AF1 /* Pods-AJSDKBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJSDKBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		69C6B4926DF4097ADC4CB8EC5093F5AA /* Pods-AJSDKBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJSDKBox_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A73D7A2A523A70969004A5341D660FF /* Pods-AJSDKBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJSDKBox_Tests-Info.plist"; sourceTree = "<group>"; };
 		7B1A4B3C914C0188F534A8033867C057 /* Pods-AJSDKBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJSDKBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84CF5BE7A3CFC742416B6D6A81B88E0A /* AJSDKRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AJSDKRuntime.m; path = AJSDKBox/Classes/AJSDKRuntime.m; sourceTree = "<group>"; };
-		8B0A0176E4AB17C87327F254E9A5A23E /* AJSDKBoxRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKBoxRouter.swift; path = AJSDKBox/Classes/AJSDKBoxRouter.swift; sourceTree = "<group>"; };
 		9093272350081395687AAD3828F0A3FD /* Pods_AJSDKBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJSDKBox_Example.framework; path = "Pods-AJSDKBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96FE9761C0D4DF8C117AA3CC9F271301 /* AJSDKBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJSDKBox.modulemap; sourceTree = "<group>"; };
+		9186A1E7BD1C7E155C08D2356D38AACC /* AJSDKBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJSDKBox.debug.xcconfig; sourceTree = "<group>"; };
 		988093499AE054E5DE540EC8A4813625 /* Pods-AJSDKBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJSDKBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B386C240C02E40E172EDA3E4C7C5FA8 /* AJEZSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AJEZSDK.h; path = AJEZVIZ/Classes/AJEZSDK.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E60BFB56CBF4DE1F8498C2678174AAA /* AJSDKBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKBox.swift; path = AJSDKBox/Classes/AJSDKBox.swift; sourceTree = "<group>"; };
-		A79A10900CD8FD5B3A789973F24E081E /* AJSDKBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJSDKBox-Info.plist"; sourceTree = "<group>"; };
+		A03C23398617B0C7903CC8F9FED82D4A /* AJTuyaSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJTuyaSDK.swift; path = AJTuya/Classes/AJTuyaSDK.swift; sourceTree = "<group>"; };
 		A827529E72C09A99195F6BE44EFD62DD /* Pods-AJSDKBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJSDKBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB0DDDBE3F1AEAA103966D77A625A8AA /* AJSDKBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJSDKBox-umbrella.h"; sourceTree = "<group>"; };
 		ABBFB665428887AAE1B1DC6FD01FB682 /* Pods-AJSDKBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJSDKBox_Example-umbrella.h"; sourceTree = "<group>"; };
-		BB955DC5095CC0852A4D0E428D063CAE /* AJSDKBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJSDKBox.release.xcconfig; sourceTree = "<group>"; };
+		ADC29D5708791CEBD88FE4F7930F5F04 /* AJSDKBoxRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKBoxRouter.swift; path = AJSDKBox/Classes/AJSDKBoxRouter.swift; sourceTree = "<group>"; };
+		C276A8514C6C0D2E614202E4D7D48EEE /* AJSDKBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJSDKBox-Info.plist"; sourceTree = "<group>"; };
+		C4BCBDB09AB6561729BE3FFE9A1A72C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C6C96B89CAF2C13ABFB9CE01EF27A014 /* Pods-AJSDKBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJSDKBox_Example-Info.plist"; sourceTree = "<group>"; };
+		D1E6F9EC802D50AB8C51C875BB63F8DD /* AJSDKBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJSDKBox.release.xcconfig; sourceTree = "<group>"; };
 		D336CA799AB5EE54B11D2F6F75773428 /* Pods-AJSDKBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJSDKBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB8E406FA40BFF32059E82157A85B2DD /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = AJSDKBox/Classes/CTMediator.m; sourceTree = "<group>"; };
-		DD69DA8D98A949E4FB5E01EF9D475B0D /* AJSDKBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJSDKBox-dummy.m"; sourceTree = "<group>"; };
+		D82B11A8071C6A0CCF8826CEF8EDF7A5 /* TuyaSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TuyaSDK.swift; path = AJTuya/Classes/TuyaSDK.swift; sourceTree = "<group>"; };
+		DAB218EBB52592A93680C007E3FC9DBD /* AJEZSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AJEZSDK.m; path = AJEZVIZ/Classes/AJEZSDK.m; sourceTree = "<group>"; };
+		DBFC48DE9E603B292AA910CF2299DE9B /* AJSDKBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJSDKBox.swift; path = AJSDKBox/Classes/AJSDKBox.swift; sourceTree = "<group>"; };
 		E351DBF19847BCE84CAF9556A1228FA5 /* Pods-AJSDKBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJSDKBox_Example.modulemap"; sourceTree = "<group>"; };
 		EF75A155314537E97E91F5EAA56BF01C /* Pods-AJSDKBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJSDKBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF90999426800B1F96389F4CD616CE6A /* EZVIZSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZVIZSDK.h; path = AJEZVIZ/Classes/EZVIZSDK.h; sourceTree = "<group>"; };
 		F2E87D385397078F592A2019E452F263 /* Pods-AJSDKBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJSDKBox_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +110,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		704084964E59061CF27977E6F4B54227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04962106CB6439F61D7E08EBEEFB49C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C111D147E5DEF14F7D3C2E51BC07FF63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,40 +126,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F71B32FF7D520C3017CFEE7FAA8856FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E705A42F9BAA0E281CE7C5DDBD434B93 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A3FAED86F54534CAFCEBF6C2DA9A713 /* AJSDKBox */ = {
+		0D97D571621D6902F4D9449C980993D4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9E60BFB56CBF4DE1F8498C2678174AAA /* AJSDKBox.swift */,
-				8B0A0176E4AB17C87327F254E9A5A23E /* AJSDKBoxRouter.swift */,
-				612F9BD8BB05EB0766267EBD7A7AB27F /* AJSDKInterface.swift */,
-				059A4D919D5C89F1CF439F1F32674D44 /* AJSDKRuntime.h */,
-				84CF5BE7A3CFC742416B6D6A81B88E0A /* AJSDKRuntime.m */,
-				309CA9E0083AE40C7BFFD11D3B926F20 /* CTMediator.h */,
-				DB8E406FA40BFF32059E82157A85B2DD /* CTMediator.m */,
+				147DF538B14FC4805E665FE2ACB11589 /* AJSDKBox.podspec */,
+				C4BCBDB09AB6561729BE3FFE9A1A72C4 /* LICENSE */,
 			);
-			name = AJSDKBox;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		1CC56E901CB316C79B84B9ECB1A4AFDD /* AJSDKBox */ = {
+		0DCD6121535A6DF7D7A5D89E0CC8605E /* AJSDKBox */ = {
 			isa = PBXGroup;
 			children = (
-				0A3FAED86F54534CAFCEBF6C2DA9A713 /* AJSDKBox */,
-				A58BF151C61F692AA8466E82FB4B5308 /* Pod */,
-				9265CB41DEEE3A3E7C2DDA096D2FA19A /* Support Files */,
+				9512E45556F605B3252558A2AC045E4F /* AJEZVIZ */,
+				8E945E1FBADF4E2C265F0E6021B57901 /* AJSDKBox */,
+				18ECB68B8E03BD4E30A7B3E50BFA8605 /* AJTuya */,
+				0D97D571621D6902F4D9449C980993D4 /* Pod */,
+				D4DE36539A3D8B6DA5E792CF83E34C39 /* Support Files */,
 			);
 			name = AJSDKBox;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		18ECB68B8E03BD4E30A7B3E50BFA8605 /* AJTuya */ = {
+			isa = PBXGroup;
+			children = (
+				A03C23398617B0C7903CC8F9FED82D4A /* AJTuyaSDK.swift */,
+				4F26E068B1CCB2A1EADFE3D8F5CFBA02 /* TuyaObj.swift */,
+				D82B11A8071C6A0CCF8826CEF8EDF7A5 /* TuyaSDK.swift */,
+			);
+			name = AJTuya;
+			sourceTree = "<group>";
+		};
+		4C92A176DC6CD0B632AAEBCDF62B656A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCD6121535A6DF7D7A5D89E0CC8605E /* AJSDKBox */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -187,29 +219,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9265CB41DEEE3A3E7C2DDA096D2FA19A /* Support Files */ = {
+		8E945E1FBADF4E2C265F0E6021B57901 /* AJSDKBox */ = {
 			isa = PBXGroup;
 			children = (
-				96FE9761C0D4DF8C117AA3CC9F271301 /* AJSDKBox.modulemap */,
-				DD69DA8D98A949E4FB5E01EF9D475B0D /* AJSDKBox-dummy.m */,
-				A79A10900CD8FD5B3A789973F24E081E /* AJSDKBox-Info.plist */,
-				3E8B8F8922B0622AF2021B077BC8FBBA /* AJSDKBox-prefix.pch */,
-				AB0DDDBE3F1AEAA103966D77A625A8AA /* AJSDKBox-umbrella.h */,
-				330B6212E6C89DA8544426186EFF83B7 /* AJSDKBox.debug.xcconfig */,
-				BB955DC5095CC0852A4D0E428D063CAE /* AJSDKBox.release.xcconfig */,
+				DBFC48DE9E603B292AA910CF2299DE9B /* AJSDKBox.swift */,
+				ADC29D5708791CEBD88FE4F7930F5F04 /* AJSDKBoxRouter.swift */,
+				43A6E8302C3F0611AC4DBEBAB7BEDC25 /* AJSDKInterface.swift */,
+				48E042E05628AE9E5C145F2CE606EFFD /* AJSDKRuntime.h */,
+				05E987D5F43C4D6339F5FD077E016E26 /* AJSDKRuntime.m */,
+				2062854C364E26299903D110151E9135 /* CTMediator.h */,
+				2AB3D3472D4F0AC7D42A829419DFF540 /* CTMediator.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AJSDKBox";
+			name = AJSDKBox;
 			sourceTree = "<group>";
 		};
-		A58BF151C61F692AA8466E82FB4B5308 /* Pod */ = {
+		9512E45556F605B3252558A2AC045E4F /* AJEZVIZ */ = {
 			isa = PBXGroup;
 			children = (
-				625E3CEED6171A962C323168099BAE41 /* AJSDKBox.podspec */,
-				51126BC9A559605146FCD1D2604F8732 /* LICENSE */,
-				46480CF49249A6D44EBA40E473C09E67 /* README.md */,
+				9B386C240C02E40E172EDA3E4C7C5FA8 /* AJEZSDK.h */,
+				DAB218EBB52592A93680C007E3FC9DBD /* AJEZSDK.m */,
+				04E400160900E1D0DF1F70E4530713E3 /* EZObj.h */,
+				5A52763424456C3520471A9B6A263E3C /* EZObj.m */,
+				EF90999426800B1F96389F4CD616CE6A /* EZVIZSDK.h */,
+				22A0CC4426A172DB5945728202FD08A7 /* EZVIZSDK.m */,
 			);
-			name = Pod;
+			name = AJEZVIZ;
 			sourceTree = "<group>";
 		};
 		AB69BBDC07F710DB31E87A72234A72DD /* Products */ = {
@@ -226,7 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F821602864881A28F34EF760C0DC2BBC /* Development Pods */,
+				4C92A176DC6CD0B632AAEBCDF62B656A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AB69BBDC07F710DB31E87A72234A72DD /* Products */,
 				8D6CD134E866FDCA86146EAB2D9E7E50 /* Targets Support Files */,
@@ -241,27 +275,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F821602864881A28F34EF760C0DC2BBC /* Development Pods */ = {
+		D4DE36539A3D8B6DA5E792CF83E34C39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CC56E901CB316C79B84B9ECB1A4AFDD /* AJSDKBox */,
+				3E2C0074981EF9B87AF5E040E9441016 /* AJSDKBox.modulemap */,
+				4DE922A9FF9C0CDA094194B20F201E76 /* AJSDKBox-dummy.m */,
+				C276A8514C6C0D2E614202E4D7D48EEE /* AJSDKBox-Info.plist */,
+				4D560D4B5A1BDD96E6558A724DF9978E /* AJSDKBox-prefix.pch */,
+				33141EC1BCC491B68376B461EC5597B1 /* AJSDKBox-umbrella.h */,
+				9186A1E7BD1C7E155C08D2356D38AACC /* AJSDKBox.debug.xcconfig */,
+				D1E6F9EC802D50AB8C51C875BB63F8DD /* AJSDKBox.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJSDKBox";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12397D809A1B0E221C4D092A269E4873 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9ACCB6F090816A39F7B5B9E4ACCDFF77 /* AJSDKBox-umbrella.h in Headers */,
-				F3D32BFD0F755E220DD6C50E2D2D6A0C /* AJSDKRuntime.h in Headers */,
-				36A023E6B23A8E3CFD6E68FAB297E27C /* CTMediator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C30CD973426206662FE762CC58ED528 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,17 +309,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7F77F68E106735927BBCB04B041C73C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A587FD2ABB28473AEFF1D8F4783501FD /* AJEZSDK.h in Headers */,
+				C13951834208885DB5DF1FD7308DB257 /* AJSDKBox-umbrella.h in Headers */,
+				818A1E738FE91367CB19B1CA4E559EAB /* AJSDKRuntime.h in Headers */,
+				A41D0707A4B01258BE1D2F91A6F424D1 /* CTMediator.h in Headers */,
+				CA593DC3A6A4D4650806571F629B20CD /* EZObj.h in Headers */,
+				D68116BEA0A9923CD4D5C9F93E2BED62 /* EZVIZSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3AB7CA357E4FA8D8F3C563E4878D866D /* AJSDKBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DAF3EB8A5CFB0AFDDD390B6B66F066F /* Build configuration list for PBXNativeTarget "AJSDKBox" */;
+			buildConfigurationList = B34C8EF080A0B0D5FBCDC9429EDB0A94 /* Build configuration list for PBXNativeTarget "AJSDKBox" */;
 			buildPhases = (
-				12397D809A1B0E221C4D092A269E4873 /* Headers */,
-				EC5603322CF16D17CFA137E75231ACCC /* Sources */,
-				F71B32FF7D520C3017CFEE7FAA8856FC /* Frameworks */,
-				8A202846A3148A1756A8B51A2B26C8E6 /* Resources */,
+				A7F77F68E106735927BBCB04B041C73C /* Headers */,
+				691BD6FBE5708AD3FA51F679A191EF01 /* Sources */,
+				704084964E59061CF27977E6F4B54227 /* Frameworks */,
+				AC1F5D7175FAD31DE1683452A7DD4FDE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -311,7 +355,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6BD898D320AC57884E525BE0773D6A50 /* PBXTargetDependency */,
+				98E57399604147A2EA425B18356D517A /* PBXTargetDependency */,
 			);
 			name = "Pods-AJSDKBox_Example";
 			productName = "Pods-AJSDKBox_Example";
@@ -330,7 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2DEC3E855645C83EF12182455E544B0B /* PBXTargetDependency */,
+				147D3BB8424561DC76A91512C61E054B /* PBXTargetDependency */,
 			);
 			name = "Pods-AJSDKBox_Tests";
 			productName = "Pods-AJSDKBox_Tests";
@@ -381,7 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A202846A3148A1756A8B51A2B26C8E6 /* Resources */ = {
+		AC1F5D7175FAD31DE1683452A7DD4FDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +435,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		691BD6FBE5708AD3FA51F679A191EF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE912AEFD94EF579947F3567F9CBE0AE /* AJEZSDK.m in Sources */,
+				842ACB0EF1285739579EB6FE9E9856E3 /* AJSDKBox-dummy.m in Sources */,
+				AD15EA59D6F34ADC6AF6A65D1A689381 /* AJSDKBox.swift in Sources */,
+				3796C4B1D135E31767B8F495C863AA99 /* AJSDKBoxRouter.swift in Sources */,
+				344FB3A308792F730E5AF3D1E5EA27DA /* AJSDKInterface.swift in Sources */,
+				177E2B7FF0AD1CBA0211471B6A9961AD /* AJSDKRuntime.m in Sources */,
+				5537E777537FB6D4F0641217D9AFF3EF /* AJTuyaSDK.swift in Sources */,
+				2ECD2F83987E360B7AAF6072F2E9A08D /* CTMediator.m in Sources */,
+				BB6C34231C39B91861789DF9C7C39C07 /* EZObj.m in Sources */,
+				EF4F594A85025BA1157767BB53C1810D /* EZVIZSDK.m in Sources */,
+				35F046A2F65C70F58495E2B2D0E00D45 /* TuyaObj.swift in Sources */,
+				262816753DCDCC090535AB669571515F /* TuyaSDK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76EF9CAFE45986D91D250419B38BFC43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,33 +470,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC5603322CF16D17CFA137E75231ACCC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AE3D28A62A1631B6B25D6C276043F70 /* AJSDKBox-dummy.m in Sources */,
-				400909ED7EEE098C55ED627280AC2EBA /* AJSDKBox.swift in Sources */,
-				E503605C710F8424CD37E3E6C25C42B9 /* AJSDKBoxRouter.swift in Sources */,
-				C772CEDCF9D1567FEC68FF54831C6337 /* AJSDKInterface.swift in Sources */,
-				09991C27214A62F899066664C6A8408A /* AJSDKRuntime.m in Sources */,
-				27CE64F15418CDF5E4714CB43694D828 /* CTMediator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DEC3E855645C83EF12182455E544B0B /* PBXTargetDependency */ = {
+		147D3BB8424561DC76A91512C61E054B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AJSDKBox_Example";
 			target = D1F932AC8D3BDC9C86890606BDDEB81A /* Pods-AJSDKBox_Example */;
-			targetProxy = 2B11DBBBC61B531AAA402CBE6046F017 /* PBXContainerItemProxy */;
+			targetProxy = A76350D636A45B4994A30B7E48C9EBF8 /* PBXContainerItemProxy */;
 		};
-		6BD898D320AC57884E525BE0773D6A50 /* PBXTargetDependency */ = {
+		98E57399604147A2EA425B18356D517A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AJSDKBox;
 			target = 3AB7CA357E4FA8D8F3C563E4878D866D /* AJSDKBox */;
-			targetProxy = A3CD2909AD0EC21B839671936E5C3585 /* PBXContainerItemProxy */;
+			targetProxy = 29B7E61DE7786F180B021BC676C3B3DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,6 +586,37 @@
 			};
 			name = Debug;
 		};
+		2D2DDD4A2DE26D98D3DB89A1AB614D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E6F9EC802D50AB8C51C875BB63F8DD /* AJSDKBox.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJSDKBox/AJSDKBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJSDKBox/AJSDKBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJSDKBox/AJSDKBox.modulemap";
+				PRODUCT_MODULE_NAME = AJSDKBox;
+				PRODUCT_NAME = AJSDKBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4A5565A10E5BB055CAD36B6CE843889B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08C07C8DA6AE3A51972DA493447567E3 /* Pods-AJSDKBox_Example.release.xcconfig */;
@@ -568,36 +649,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4DC7818C8D1E91C9C2E4C8553FAC6A98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 330B6212E6C89DA8544426186EFF83B7 /* AJSDKBox.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AJSDKBox/AJSDKBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AJSDKBox/AJSDKBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AJSDKBox/AJSDKBox.modulemap";
-				PRODUCT_MODULE_NAME = AJSDKBox;
-				PRODUCT_NAME = AJSDKBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		73246E5ADAC993F07A45E049CDBF3175 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -726,9 +777,9 @@
 			};
 			name = Release;
 		};
-		FB72C3E86F83A10AA2CC5F5096AF8630 /* Release */ = {
+		E5CA7EAA0A5536B140D128757BF73ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB955DC5095CC0852A4D0E428D063CAE /* AJSDKBox.release.xcconfig */;
+			baseConfigurationReference = 9186A1E7BD1C7E155C08D2356D38AACC /* AJSDKBox.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -751,11 +802,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -769,20 +819,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DAF3EB8A5CFB0AFDDD390B6B66F066F /* Build configuration list for PBXNativeTarget "AJSDKBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DC7818C8D1E91C9C2E4C8553FAC6A98 /* Debug */,
-				FB72C3E86F83A10AA2CC5F5096AF8630 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9FDD8693CA1D522679FA52759D271459 /* Build configuration list for PBXNativeTarget "Pods-AJSDKBox_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73246E5ADAC993F07A45E049CDBF3175 /* Debug */,
 				941423F1E86EF6D785DEFB66DB6BC8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34C8EF080A0B0D5FBCDC9429EDB0A94 /* Build configuration list for PBXNativeTarget "AJSDKBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5CA7EAA0A5536B140D128757BF73ECB /* Debug */,
+				2D2DDD4A2DE26D98D3DB89A1AB614D6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

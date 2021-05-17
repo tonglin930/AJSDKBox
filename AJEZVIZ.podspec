@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint AJSDKBox.podspec' to ensure this is a
+# Be sure to run `pod lib lint AJEZVIZ.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AJSDKBox'
+  s.name             = 'AJEZVIZ'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of AJSDKBox.'
+  s.summary          = 'A short description of AJEZVIZ.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tonglin930/AJSDKBox.git'
+  s.homepage         = 'https://github.com/keithmorning/AJEZVIZ'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'keithmorning' => 'xiaofeng.xi@net263.com' }
@@ -29,32 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  s.default_subspec = 'AJSDKBox'
-  
-#  s.subspec 'AJSDKInterface' do |ss|
-#    ss.source_files = 'AJSDKInterface/Classes/**/*'
-#  end
 
-  s.subspec 'AJSDKBox' do |ss|
-    ss.source_files = 'AJSDKBox/Classes/**/*'
-#    ss.dependency 'AJSDKBox/AJSDKInterface'
-  end
-  
- s.subspec 'AJEZVIZ' do |ss|
-   ss.source_files = 'AJEZVIZ/Classes/**/*'
-   ss.dependency 'AJSDKBox/AJSDKBox'
- end
- 
- s.subspec 'AJTuya' do |ss|
-   ss.source_files = 'AJTuya/Classes/**/*'
-   ss.dependency 'AJSDKBox/AJSDKBox'
- end
- 
-  
+  s.source_files = 'AJEZVIZ/Classes/**/*'
+  s.dependency 'AJSDKBox'
   
   # s.resource_bundles = {
-  #   'AJSDKBox' => ['AJSDKBox/Assets/*.png']
+  #   'AJEZVIZ' => ['AJEZVIZ/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

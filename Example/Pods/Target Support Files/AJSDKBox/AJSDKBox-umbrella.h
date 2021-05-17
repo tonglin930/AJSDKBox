@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "AJEZSDK.h"
+#import "EZObj.h"
+#import "EZVIZSDK.h"
 #import "AJSDKRuntime.h"
 #import "CTMediator.h"
 

@@ -59,7 +59,7 @@ def lint_push_podspec(spec_name, specs_name, source_specs_url):
 
 #pod lib lint --sources=ssh://git@gitlab.263nt.com:2200/italkbbspecs/italkbbspecs.git,https://github.com/CocoaPods/Specs --allow-warnings --verbose --use-libraries
 
-    spec_lint = 'pod lib lint --sources=%s --allow-warnings --verbose --use-libraries' % source_specs_url
+    spec_lint = 'pod lib lint --sources=%s --allow-warnings --verbose --use-libraries --no-clean' % source_specs_url
     print(spec_lint)
     res = os.system(spec_lint)
 
