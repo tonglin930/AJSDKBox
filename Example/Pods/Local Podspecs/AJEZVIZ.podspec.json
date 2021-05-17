@@ -1,6 +1,6 @@
 {
   "name": "AJEZVIZ",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of AJEZVIZ.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/keithmorning/AJEZVIZ",
@@ -12,15 +12,15 @@
     "keithmorning": "xiaofeng.xi@net263.com"
   },
   "source": {
-    "git": "https://github.com/keithmorning/AJEZVIZ.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tonglin930/AJSDKBox.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "AJEZVIZ/Classes/**/*",
   "dependencies": {
-    "AJSDKInterface": [
+    "AJSDKBox": [
 
     ]
   }

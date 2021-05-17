@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "AJSDKRuntime.h"
-#import "CTMediator.h"
 
-FOUNDATION_EXPORT double AJSDKBoxVersionNumber;
-FOUNDATION_EXPORT const unsigned char AJSDKBoxVersionString[];
+FOUNDATION_EXPORT double AJTuyaVersionNumber;
+FOUNDATION_EXPORT const unsigned char AJTuyaVersionString[];
 
