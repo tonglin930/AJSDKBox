@@ -7,8 +7,6 @@
 
 import Foundation
 
-//import AJSDKInterface
-
 @objcMembers
 public class AJTuyaSDK:NSObject,AAJSDKMeathod {
     public var SDKCallBack: AJSDKMeathodCallbck?
