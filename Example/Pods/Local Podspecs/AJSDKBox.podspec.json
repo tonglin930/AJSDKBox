@@ -18,38 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
-  "default_subspecs": "AJBox",
+  "default_subspecs": "AJSDKBox",
   "subspecs": [
     {
-      "name": "AJSDKInterface",
-      "source_files": "AJSDKInterface/Classes/**/*"
-    },
-    {
-      "name": "AJBox",
-      "source_files": "AJBox/Classes/**/*",
-      "dependencies": {
-        "AJSDKBox/AJSDKInterface": [
-
-        ]
-      }
-    },
-    {
-      "name": "AJEZVIZ",
-      "source_files": "AJEZVIZ/Classes/**/*",
-      "dependencies": {
-        "AJSDKBox/AJBox": [
-
-        ]
-      }
-    },
-    {
-      "name": "AJTuya",
-      "source_files": "AJTuya/Classes/**/*",
-      "dependencies": {
-        "AJSDKBox/AJBox": [
-
-        ]
-      }
+      "name": "AJSDKBox",
+      "source_files": "AJSDKBox/Classes/**/*"
     }
   ]
 }

@@ -30,27 +30,27 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   
-  s.default_subspec = 'AJBox'
+  s.default_subspec = 'AJSDKBox'
   
-  s.subspec 'AJSDKInterface' do |ss|
-    ss.source_files = 'AJSDKInterface/Classes/**/*'
-  end
+#  s.subspec 'AJSDKInterface' do |ss|
+#    ss.source_files = 'AJSDKInterface/Classes/**/*'
+#  end
 
-  s.subspec 'AJBox' do |ss|
-    ss.source_files = 'AJBox/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJSDKInterface'
+  s.subspec 'AJSDKBox' do |ss|
+    ss.source_files = 'AJSDKBox/Classes/**/*'
+#    ss.dependency 'AJSDKBox/AJSDKInterface'
   end
   
-  s.subspec 'AJEZVIZ' do |ss|
-    ss.source_files = 'AJEZVIZ/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJBox'
-  end
-  
-  s.subspec 'AJTuya' do |ss|
-    ss.source_files = 'AJTuya/Classes/**/*'
-    ss.dependency 'AJSDKBox/AJBox'
-  end
-  
+#  s.subspec 'AJEZVIZ' do |ss|
+#    ss.source_files = 'AJEZVIZ/Classes/**/*'
+#    ss.dependency 'AJSDKBox/AJSDKBox'
+#  end
+#  
+#  s.subspec 'AJTuya' do |ss|
+#    ss.source_files = 'AJTuya/Classes/**/*'
+#    ss.dependency 'AJSDKBox/AJSDKBox'
+#  end
+#  
   
   
   # s.resource_bundles = {

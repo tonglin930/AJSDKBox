@@ -1,26 +1,18 @@
 PODS:
   - AJSDKBox (0.1.0):
-    - AJSDKBox/AJBox (= 0.1.0)
-  - AJSDKBox/AJBox (0.1.0):
-    - AJSDKBox/AJSDKInterface
-  - AJSDKBox/AJEZVIZ (0.1.0):
-    - AJSDKBox/AJBox
-  - AJSDKBox/AJSDKInterface (0.1.0)
-  - AJSDKBox/AJTuya (0.1.0):
-    - AJSDKBox/AJBox
+    - AJSDKBox/AJSDKBox (= 0.1.0)
+  - AJSDKBox/AJSDKBox (0.1.0)
 
 DEPENDENCIES:
   - AJSDKBox (from `../`)
-  - AJSDKBox/AJEZVIZ (from `../`)
-  - AJSDKBox/AJTuya (from `../`)
 
 EXTERNAL SOURCES:
   AJSDKBox:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AJSDKBox: 5fa0664f0b004860419ada40cc69abc88cdc7478
+  AJSDKBox: 55680187757dcfb8a8a1ee5d38fd4f8fea029c69
 
-PODFILE CHECKSUM: 6420d94350f41d0bd2ca51014576c5756fec04cc
+PODFILE CHECKSUM: 9f51c042f33063417f34b6c2236ce6deb7472589
 
 COCOAPODS: 1.10.1

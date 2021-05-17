@@ -11,7 +11,7 @@
 #import "RouterPathUrl.h"
 #import "AJSDKBox_Example-Swift.h"
 #import "DemoListViewController.h"
-#import <AJSDKBox/CTMediator.h>
+//#import <AJSDKBox/CTMediator.h>
 
 @implementation RouterRegisterCenter
 
@@ -21,7 +21,7 @@
     
     [MGJRouter registerURLPattern:ROUTER_PATH_DEMOLIST toHandler:^(NSDictionary *routerParameters) {
         
-        [CTMediator sharedInstance];
+//        [CTMediator sharedInstance];
         //
         DemoListViewController *vc = [[DemoListViewController alloc]init];
         
