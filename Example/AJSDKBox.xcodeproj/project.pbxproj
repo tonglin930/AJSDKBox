@@ -361,15 +361,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AJSDKBox_Example/Pods-AJSDKBox_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AJEZVIZ/AJEZVIZ.framework",
 				"${BUILT_PRODUCTS_DIR}/AJSDKBox/AJSDKBox.framework",
-				"${BUILT_PRODUCTS_DIR}/AJTuya/AJTuya.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJEZVIZ.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJSDKBox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJTuya.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

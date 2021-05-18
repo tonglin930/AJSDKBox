@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AJEZVIZ/Classes/**/*",
   "dependencies": {
     "AJSDKBox": [
 
