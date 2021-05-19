@@ -1,30 +1,24 @@
 PODS:
-  - AJEZVIZ (0.1.1):
-    - AJSDKBox
   - AJSDKBox (0.1.1):
-    - AJSDKBox/AJSDKBox (= 0.1.1)
-  - AJSDKBox/AJSDKBox (0.1.1)
-  - AJTuya (0.1.1):
-    - AJSDKBox
+    - AJSDKBox/Core (= 0.1.1)
+  - AJSDKBox/AJEZVIZ (0.1.1):
+    - AJSDKBox/Core
+  - AJSDKBox/AJTuya (0.1.1):
+    - AJSDKBox/Core
+  - AJSDKBox/Core (0.1.1)
 
 DEPENDENCIES:
-  - AJEZVIZ (from `../`)
   - AJSDKBox (from `../`)
-  - AJTuya (from `../`)
+  - AJSDKBox/AJEZVIZ (from `../`)
+  - AJSDKBox/AJTuya (from `../`)
 
 EXTERNAL SOURCES:
-  AJEZVIZ:
-    :path: "../"
   AJSDKBox:
-    :path: "../"
-  AJTuya:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AJEZVIZ: f5fd33549defb3803cc08bd34cb50777841d88b0
-  AJSDKBox: 3d98ba5d5052a132afb0757e9e81ba95668f0740
-  AJTuya: 6b3d714d68da5820069b2cc65d2a3dbab07d5602
+  AJSDKBox: 77d3a0fd6d07a4cb38167e1a687c80a35e8faf71
 
-PODFILE CHECKSUM: e776e7fd3c59102c0c5b60284c865cf3be610c66
+PODFILE CHECKSUM: 6420d94350f41d0bd2ca51014576c5756fec04cc
 
 COCOAPODS: 1.10.1

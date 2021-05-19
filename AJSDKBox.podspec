@@ -30,25 +30,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   
-  s.default_subspec = 'AJSDKBox'
+  s.default_subspec = 'Core'
   
 #  s.subspec 'AJSDKInterface' do |ss|
 #    ss.source_files = 'AJSDKInterface/Classes/**/*'
 #  end
 
-  s.subspec 'AJSDKBox' do |ss|
-    ss.source_files = 'AJSDKBox/Classes/**/*'
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'Core/Classes/**/*'
 #    ss.dependency 'AJSDKBox/AJSDKInterface'
   end
   
  s.subspec 'AJEZVIZ' do |ss|
    ss.source_files = 'AJEZVIZ/Classes/**/*'
-   ss.dependency 'AJSDKBox/AJSDKBox'
+   ss.dependency 'AJSDKBox/Core'
  end
  
  s.subspec 'AJTuya' do |ss|
    ss.source_files = 'AJTuya/Classes/**/*'
-   ss.dependency 'AJSDKBox/AJSDKBox'
+   ss.dependency 'AJSDKBox/Core'
  end
  
   
