@@ -18,5 +18,10 @@ public protocol AAJSDKMeathod {
     static func oem()->String
 }
 
+@objc
+public protocol AAJSDKMeathod222 {
+    
+}
+
 
 

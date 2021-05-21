@@ -9,7 +9,7 @@ import Foundation
 import AJSDKBox
 
 @objcMembers
-public class AJTuyaSDK:NSObject,AAJSDKMeathod {
+public class AJTuyaSDK:NSObject,AAJSDKMeathod,AAJSDKMeathod222 {
     public var SDKCallBack: AJSDKMeathodCallbck?
     
     public func sayHello() {
